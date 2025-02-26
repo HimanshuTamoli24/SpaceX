@@ -1,5 +1,5 @@
 import React from "react";
-import ImageSlider from '../Components/Slider';
+import {ImageSlider} from '../Components';
 
 function Dragon() {
   const image = [

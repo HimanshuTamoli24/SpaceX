@@ -22,7 +22,7 @@ const ImageSlider = ({ media = [],}) => {
         >
             {media.map((img, index) => (
                 <SwiperSlide key={index}>
-                    <img src={img} alt={`Slide ${index}`} className="rounded-xl  object-cover px-10 w-full h-full object-cover" />
+                    <img src={img} alt={`Slide ${index}`} className="rounded-xl  px-10 w-full h-full object-cover" />
                 </SwiperSlide>
             ))}
         </Swiper>

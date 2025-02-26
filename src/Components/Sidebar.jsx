@@ -14,7 +14,7 @@ function Sidebar() {
                 ☰
             </button>
 
-        
+
             {/* Sidebar */}
             <div className={`fixed top-0 right-0 w-96 rounded-xl min-h-screen bg-black z-50 p-5 transition-transform duration-300 ${active ? 'translate-x-0' : 'translate-x-full'}`}>
                 <div className="flex justify-end">
@@ -23,7 +23,7 @@ function Sidebar() {
 
                 <div className="mt-5 space-y-4 ">
                     {menuItems.map((item) => (
-                        <Link to={`/${item.toLowerCase()}`} key={item} className="block p-2 text-lg font-semibold border-b border-gray-600 hover:bg-gray-800">
+                        <Link to={`/`} key={item} className="block p-2 text-lg font-semibold border-b border-gray-600 hover:bg-gray-800">
                             {item}
                         </Link>
                     ))}

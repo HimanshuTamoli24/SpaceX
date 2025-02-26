@@ -1,6 +1,6 @@
 import React from 'react';
-import LaunchSection from '../Components/Launch';
-import ImageSlider from "../Components/Slider.jsx"
+import {LaunchSection} from '../Components';
+import {ImageSlider} from "../Components"
 function Heavy() {
   const newImage = [
     "/heavy/10001.jpg",

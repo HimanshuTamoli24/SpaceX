@@ -1,5 +1,5 @@
 import React from "react";
-import LaunchSection from "../Components/Launch";
+import {LaunchSection} from "../Components";
 
 function Home() {
     return (

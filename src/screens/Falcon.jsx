@@ -1,6 +1,6 @@
 import React from 'react';
-import LaunchSection from '../Components/Launch';
-import ImageSlider from '../Components/Slider';
+import {LaunchSection} from '../Components';
+import {ImageSlider} from '../Components';
 function Falcon() {
   const newImages = [
     "/10002.jpg",
