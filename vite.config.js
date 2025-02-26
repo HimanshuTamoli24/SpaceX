@@ -5,5 +5,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
-  base: "/Reacts/SpaceX/",
+  base: "/SpaceX/",
 })

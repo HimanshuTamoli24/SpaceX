@@ -14,7 +14,7 @@ const routes = createBrowserRouter([{
     element: React.createElement(route.component), // ✅ Correctly render components
   })),
 }],
-  { basename: "/Reacts/SpaceX" })
+  { basename: "/SpaceX" })
 createRoot(document.getElementById('root')).render(
   <RouterProvider router={routes} />
 )
