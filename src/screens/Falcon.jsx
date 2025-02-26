@@ -2,6 +2,21 @@ import React from 'react';
 import LaunchSection from '../Components/Launch';
 import ImageSlider from '../Components/Slider';
 function Falcon() {
+  const newImages = [
+    "/10002.jpg",
+    "/10003.jpg",
+    "/10004.jpg",
+    "/10005.jpg",
+    "/10006.jpg",
+    "/10007.jpg",
+    "/10008.jpg",
+    "/10009.jpg",
+    "/10010.jpg",
+    "/10011.jpg",
+    "/10012.jpg",
+    " public/10011.jpg"
+
+  ];
 
   return (
     <>
@@ -36,7 +51,7 @@ function Falcon() {
         imgSrc="/10005.jpg"
         para="Merlin is a family of rocket engines developed by SpaceX for use on its Falcon 1, Falcon 9 and Falcon Heavy launch vehicles. Merlin engines use a rocket grade kerosene (RP-1) and liquid oxygen as rocket propellants in a gas-generator power cycle. The Merlin engine was originally designed for recovery and reuse."
       />
-      <ImageSlider />
+      <ImageSlider media={newImages}  />
 
       <div className='w-full min-h-80 justify-center flex flex-col items-center'>
         <p className='text-sm text-center text-white/50'>For information about our launch services, contact sales@spacex.com</p>

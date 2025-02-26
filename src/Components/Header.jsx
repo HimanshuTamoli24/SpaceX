@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { navRoutes } from "./Routes.js";
-import { BiFilter } from "react-icons/bi";
+import Sidebar from './Sidebar.jsx';
 
 function Header() {
     return (
@@ -26,7 +26,7 @@ function Header() {
             {/* Right Section */}
             <div className="flex items-center gap-x-4 cursor-pointer">
                 <h1 className="hidden lg:block hover:text-gray-400 transition-all">Shop</h1>
-                <BiFilter className="text-xl mx-2 hover:scale-110 transition-transform" />
+                <Sidebar />
             </div>
         </header>
     );
